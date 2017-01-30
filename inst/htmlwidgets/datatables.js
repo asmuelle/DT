@@ -62,7 +62,7 @@ DTWidget.formatDate = function(thiz, row, data, col, method, params) {
 window.DTWidget = DTWidget;
 
 var transposeArray2D = function(a) {
-  if (a===undefined) return a;
+  if (a===undefined) return [];
   return a.length === 0 ? a : HTMLWidgets.transposeArray2D(a);
 };
 
